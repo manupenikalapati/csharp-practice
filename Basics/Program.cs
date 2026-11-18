@@ -1,1 +1,1 @@
-﻿Basics.ProgramStructure.Display();
+﻿
