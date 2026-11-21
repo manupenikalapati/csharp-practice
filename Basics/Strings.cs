@@ -56,6 +56,29 @@ internal class Strings
         string cName2 = "Manu";
         Console.WriteLine(cName2.PadLeft(10, '@'));
         Console.WriteLine(cName2.PadRight(10, '*'));
+
+        //string comparison
+        string value = "Hello 1234";
+        bool isEqual = value.Equals("Hello world");
+        Console.WriteLine(isEqual);
+
+        string sentence = "The quick brown fox jump over the lazy dog";
+        string substring = sentence.Substring(4);
+        Console.WriteLine($"substring is: {substring}");
+
+        string substring2 = sentence.Substring(0, 9);
+        Console.WriteLine($"substring2 is: {substring2}");
+
+        string replaceString = sentence.Replace("brown", "red");
+        Console.WriteLine($"replaceString: {replaceString}");
+
+        //string formating
+        int quantity = 5;
+        double price = 9.99;
+        string formattedString = string.Format("The total cost is {0} for items purchased {1}", price, quantity);
+        Console.WriteLine($"formattedString is : {formattedString}");
+
+
     }
 }
 
