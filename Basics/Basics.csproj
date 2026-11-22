@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>For_Each_Loop</StartupObject>
+    <StartupObject>Methods</StartupObject>
   </PropertyGroup>
 
 </Project>
